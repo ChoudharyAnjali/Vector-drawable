@@ -12,16 +12,10 @@
     tools:context="com.example.athansys.vectordrawableapplication.MainActivity">
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         app:srcCompat = "@drawable/ic_camera_black_24dp"
         android:scaleType="fitXY"/>
-
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/ic_camera_black"
-        android:layout_alignParentBottom="true"/>
 
     <TextView
         android:id="@+id/testing_text_view"
