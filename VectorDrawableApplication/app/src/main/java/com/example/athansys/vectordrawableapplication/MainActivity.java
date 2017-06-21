@@ -16,16 +16,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-//        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
-//
-        mTextView = (TextView) findViewById(R.id.testing_text_view);
-        //Drawable vectorDrawable = AppCompatResources.getDrawable(this, R.drawable.ic_camera_black_24dp);
-
-        //Drawable vectorDrawable = ContextCompat.getDrawable(this, R.drawable.ic_camera_black_24dp);
-
-        //mTextView.setCompoundDrawables(vectorDrawable, null, null, null);
-        //mTextView.setCompoundDrawablesRelativeWithIntrinsicBounds(vectorDrawable, null, null, null);
-        //imageView.setImageDrawable(vectorDrawable);
     }
 }
